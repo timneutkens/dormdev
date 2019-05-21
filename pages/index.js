@@ -208,6 +208,7 @@ const Main = styled.main`
 const Section = styled.section`
   margin: 48px auto;
   max-width: 600px;
+  width: 90%;
   p {
     font-size: 18px;
     line-height: 1.4;
