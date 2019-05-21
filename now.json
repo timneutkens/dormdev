@@ -1,7 +1,7 @@
 {
   "version": 2,
   "name": "dormdev",
-  "alias": ["www.dormdev.com"],
+  "alias": ["dormdev.com"],
   "routes": [
     {
       "src": "/(.*)",
