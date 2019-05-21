@@ -2,7 +2,7 @@ import styled, { keyframes } from "styled-components";
 
 const Header = () => (
   <Wrapper>
-    <img src="/static/logo.svg" alt="Dorm Dev logo" width="100" />
+    <img src="/static/logo.png" alt="Dorm Dev logo" width="100" />
     <LogoText>
       <img src="/static/logo-text.png" alt="Dorm Dev text logo" height="50" />
       <BlinkingCursor />
