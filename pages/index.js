@@ -108,21 +108,25 @@ function Index() {
           rel="stylesheet"
         />
 
-        <script src="https://platform.twitter.com/widgets.js" charset="utf-8" />
+        <script
+          async
+          src="https://platform.twitter.com/widgets.js"
+          charset="utf-8"
+        />
         <script
           dangerouslySetInnerHTML={{
-            __html: `window.productHuntUpcoming = {
-                      appId: 17824,
-                      position: 'bottomLeft',
-                    };
+            __html: `  window.productHuntUpcoming = {
+                        appId: 17824,
+                        position: 'bottomLeft',
+                      };
 
-                    (function(doc, scr, src, a, b) {
-                      a = doc.createElement(scr);
-                      b = doc.getElementsByTagName(scr)[0];
-                      a.async = true;
-                      a.src = src;
-                      b.parentNode.insertBefore(a, b);
-                    })(document, 'script', 'https://assets.producthunt.com/assets/upwigloader.js');`
+                      (function(doc, scr, src, a, b) {
+                        a = doc.createElement(scr);
+                        b = doc.getElementsByTagName(scr)[0];
+                        a.async = true;
+                        a.src = src;
+                        b.parentNode.insertBefore(a, b);
+                      })(document, 'script', 'https://assets.producthunt.com/assets/upwigloader.js');`
           }}
         />
       </Head>
