@@ -1,1 +1,13 @@
-{"version":2,"name":"dormdev","builds":[{"src":"package.json","use":"@now/next"}]}
+{
+  "version": 2,
+  "name": "dormdev",
+  "alias": ["www.dormdev.com"],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 301,
+      "headers": { "Location": "https://dormdev.com/$1" }
+    }
+  ],
+  "builds": [{ "src": "package.json", "use": "@now/next" }]
+}
