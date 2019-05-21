@@ -10,6 +10,10 @@ function Index() {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta charSet="utf-8" />
+        <meta
+          name="keywords"
+          content="dorm,dev,dorm dev,developer,tech,discounts,community,home,student,students,code,software,courses,resources,tools,support"
+        />
         <link
           rel="apple-touch-icon-precomposed"
           sizes="57x57"
@@ -144,7 +148,7 @@ function Index() {
         <Header />
         <Section>
           <p>
-            Dorm Dev is new community for student developers in the works! The
+            Dorm Dev is a new community for student developers in the works! The
             goal is to make it easy to find direction and support in learning
             code, software, and developer tools. I'll try and do this by
             providing a platform that allows access to student-budget friendly
